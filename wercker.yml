@@ -1,0 +1,7 @@
+build:
+  docker: true
+  box: alpine
+  steps:
+    - script:
+        name: Say hello
+        code: echo hello
